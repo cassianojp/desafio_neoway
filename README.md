@@ -16,5 +16,5 @@ Este processo gera mais três bases de dados em formato csv:
 
 A etapa seguinte, se concentra em criar um modelo que tenta prever as taxas de contágio do restante da população. Por se tratar da predição de uma variável independente contínua, optou-se pelo modelo de Regressão Linear. Nesta etapa, aplicou-se a Regressão, tanto na base individuos_conexoes_v1 (com os dados faltantes tratados), como na base individuos_conexoes_v2 (com os registros faltantes dos individuos completamente removidos). Como demonstrado no arquivo *desafio_neoway_model*, a base com os dados faltantes completamente removidos apresentou um modelo com uma melhor *performance* nas previsões. Após a predição das taxas de contágio do restante da população, foi gerado uma nova base de dados contendo agora a informação completa, tanto das taxas de contágio, conexões e informações sobre esses indivíduos relacionados: *individuos_conexoes_previstos.csv*
 
-
+A última etapa, no arquivo *desafio_neoway_conclusao.ipynb*, de posse de toda as taxas de contágio e seus indivíduos relacionados, foi feita uma análise das informações mais impactantes para a tomada de decisões de políticas de saúde.
  
